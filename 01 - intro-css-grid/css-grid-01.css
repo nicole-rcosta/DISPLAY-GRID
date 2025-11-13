@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 10px;
+    column-gap: 20px;
+
+/* Alinhar os elementos do grid */
+    /* Alinhar no eixo horizontal */
+    justify-items: center;
+
+    /* Alinhar no eixo vertical */
+    align-items: center;
+    
+    border: 2px solid;
+
+/* Alinhar o grid */
+    height: 100vh;
+    width: 100vw;
+
+    /* Alinhar no eixo horizontal */
+    justify-content: center;
+
+    /* Alinhar no eixo vertical */
+    align-content: center;
+    background: blueviolet;
+}
+
+.gridItem{
+    width: 200px;
+    height: 200px;
+    background: red;
+
+   
+}
+
+/* body{
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/13743310/pexels-photo-13743310.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gradiente{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg,rgba(181, 5, 20, 0.5) 0%, rgba(242, 97, 126, 0.5) 55%, rgba(255, 205, 87, 0.5) 100%);
+} */
