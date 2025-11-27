@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.box img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 100%;
+    border: 4px solid var(--circle-image);
+}
