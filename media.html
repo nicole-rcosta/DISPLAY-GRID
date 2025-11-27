@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: darkblue;
+    }
+
+    .container01{
+        width: 500px;
+        height: 300px;
+        background-color: yellow;
+    }
+
+    @media(min-width:400px){
+        body{
+        background-color: darkcyan;
+    }
+    }
+
+        @media(min-width:768px){
+        body{
+        background-color: darkmagenta;
+    }
+        .container01{
+        width: 500px;
+        height: 300px;
+        background-color: rgb(255, 72, 0);
+    }
+    
+    }
+
+        @media(min-width:992px){
+        body{
+        background-color: darkorchid;
+    }
+    }
+        @media(min-width:1200px){
+        body{
+        background-color: darkorange;
+    }
+    }
+</style>
+<body>
+    <div class="container01"></div>
+</body>
+</html>
